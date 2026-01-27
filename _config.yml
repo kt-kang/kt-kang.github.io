@@ -1,7 +1,15 @@
 title: 운동과 투자일지
 description: 운동 기록과 투자 생각을 담는 개인 블로그
-theme: minima
+remote_theme: sighingnow/jekyll-gitbook
 timezone: Asia/Seoul
 lang: ko
 author: Kyoungtae
 permalink: /:categories/:year/:month/:day/:title/
+url: https://kt-kang.github.io
+baseurl: ""
+toc:
+  enabled: true
+  h_min: 1
+  h_max: 3
+plugins:
+  - jekyll-remote-theme
