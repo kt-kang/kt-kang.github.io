@@ -13,3 +13,10 @@ toc:
   h_max: 3
 plugins:
   - jekyll-remote-theme
+collections:
+  pages:
+    output: true
+    permalink: /:collection/:path/
+ordered_collections:
+  - pages
+  - posts
