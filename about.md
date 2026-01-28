@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: 소개
 permalink: /about/
 ---

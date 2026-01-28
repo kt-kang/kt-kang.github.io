@@ -8,10 +8,10 @@ title: 홈
 최근 글을 확인해 주세요.
 
 ## 운동
-{% assign 운동_posts = site.categories["workout"] | sort: "date" | reverse %}
-{% if 운동_posts %}
+{% assign workout_posts = site.categories["workout"] | sort: "date" | reverse %}
+{% if workout_posts %}
 <ul class="summary">
-  {% for post in 운동_posts %}
+  {% for post in workout_posts %}
   <li class="chapter">
     <a href="{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }} · {{ post.title }}</a>
   </li>
@@ -22,10 +22,10 @@ title: 홈
 {% endif %}
 
 ## 투자
-{% assign 투자_posts = site.categories["investment"] | sort: "date" | reverse %}
-{% if 투자_posts %}
+{% assign investment_posts = site.categories["investment"] | sort: "date" | reverse %}
+{% if investment_posts %}
 <ul class="summary">
-  {% for post in 투자_posts %}
+  {% for post in investment_posts %}
   <li class="chapter">
     <a href="{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }} · {{ post.title }}</a>
   </li>
