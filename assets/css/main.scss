@@ -1,0 +1,57 @@
+---
+---
+
+@import "minimal-mistakes";
+
+/* ===============================
+   Log-style typography tuning
+   =============================== */
+
+html {
+  font-size: 15px;
+}
+
+.page__content {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  letter-spacing: -0.01em;
+}
+
+.page__content p {
+  margin-bottom: 0.7em;
+}
+
+.page__content ul,
+.page__content ol {
+  margin-bottom: 0.8em;
+  padding-left: 1.2em;
+}
+
+.page__content li {
+  margin-bottom: 0.25em;
+}
+
+.page__content h1 {
+  font-size: 1.6rem;
+  margin-top: 1.5em;
+}
+
+.page__content h2 {
+  font-size: 1.3rem;
+  margin-top: 1.2em;
+}
+
+.page__content h3 {
+  font-size: 1.1rem;
+  margin-top: 1em;
+}
+
+.page__content code {
+  font-size: 0.85rem;
+  background: #f5f5f5;
+}
+
+.page__meta {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
