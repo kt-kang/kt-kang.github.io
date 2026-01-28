@@ -1,10 +1,10 @@
 ---
-layout: page
-title: 운동
-permalink: /운동/
+layout: single
+title: "운동 기록"
+permalink: /categories/workout/
 ---
 
-{% assign posts = site.categories["운동"] | sort: "date" | reverse %}
+{% assign posts = site.categories["workout"] | sort: "date" | reverse %}
 
 {% if posts %}
 <ul class="summary">

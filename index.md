@@ -8,7 +8,7 @@ title: 홈
 최근 글을 확인해 주세요.
 
 ## 운동
-{% assign 운동_posts = site.categories["운동"] | sort: "date" | reverse %}
+{% assign 운동_posts = site.categories["workout"] | sort: "date" | reverse %}
 {% if 운동_posts %}
 <ul class="summary">
   {% for post in 운동_posts %}
@@ -22,7 +22,7 @@ title: 홈
 {% endif %}
 
 ## 투자
-{% assign 투자_posts = site.categories["투자"] | sort: "date" | reverse %}
+{% assign 투자_posts = site.categories["investment"] | sort: "date" | reverse %}
 {% if 투자_posts %}
 <ul class="summary">
   {% for post in 투자_posts %}

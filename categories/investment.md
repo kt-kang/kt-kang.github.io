@@ -1,10 +1,10 @@
 ---
-layout: page
-title: 투자
-permalink: /투자/
+layout: single
+title: "투자 기록"
+permalink: /categories/investment/
 ---
 
-{% assign posts = site.categories["투자"] | sort: "date" | reverse %}
+{% assign posts = site.categories["investment"] | sort: "date" | reverse %}
 
 {% if posts %}
 <ul class="summary">

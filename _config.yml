@@ -4,7 +4,9 @@ remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: default
 timezone: Asia/Seoul
 lang: ko
-author: Kyoungtae
+author:
+  name: Kyoungtae
+  bio: "운동 · 투자 기록"
 permalink: /:categories/:year/:month/:day/:title/
 url: https://kt-kang.github.io
 baseurl: ""
@@ -28,6 +30,7 @@ defaults:
       type: "posts"
     values:
       layout: single
+      author_profile: true
       sidebar:
         nav: "main"
   - scope:
@@ -35,6 +38,7 @@ defaults:
       type: "pages"
     values:
       layout: single
+      author_profile: true
       sidebar:
         nav: "main"
 exclude:

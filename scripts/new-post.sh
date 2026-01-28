@@ -11,12 +11,25 @@ category="$1"
 title="$2"
 date_str="$(date +%Y-%m-%d)"
 
+case "$category" in
+  운동|workout)
+    category="workout"
+    post_dir="_posts/workout"
+    ;;
+  투자|investment)
+    category="investment"
+    post_dir="_posts/investment"
+    ;;
+  *)
+    post_dir="_posts/other"
+    ;;
+esac
+
 slug="$(printf "%s" "$title" \
   | tr ' ' '-' \
   | tr -d '"' \
   | sed 's#[/\\]#-#g')"
 
-post_dir="_posts"
 post_path="${post_dir}/${date_str}-${slug}.md"
 
 if [ -f "$post_path" ]; then

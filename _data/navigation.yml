@@ -2,8 +2,12 @@ main:
   - title: "홈"
     url: /
   - title: "운동"
-    url: /운동/
+    url: /categories/workout/
   - title: "투자"
-    url: /투자/
+    url: /categories/investment/
+  - title: "태그"
+    url: /tags/
+  - title: "아카이브"
+    url: /archive/
   - title: "소개"
     url: /about/
