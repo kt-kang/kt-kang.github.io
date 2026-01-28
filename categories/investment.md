@@ -4,7 +4,9 @@ title: "투자 기록"
 permalink: /categories/investment/
 ---
 
-{% assign posts = site.categories["investment"] | sort: "date" | reverse %}
+투자 판단, 포트폴리오 점검, 리밸런싱 과정을 기록합니다.
+
+{% assign posts = site.categories["investment"] | sort: "date" %}
 
 {% if posts %}
 <ul class="summary">

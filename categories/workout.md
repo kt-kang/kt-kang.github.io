@@ -4,7 +4,9 @@ title: "운동 기록"
 permalink: /categories/workout/
 ---
 
-{% assign posts = site.categories["workout"] | sort: "date" | reverse %}
+매일의 운동을 기록하고, 컨디션과 중량 변화를 추적합니다.
+
+{% assign posts = site.categories["workout"] | sort: "date" %}
 
 {% if posts %}
 <ul class="summary">

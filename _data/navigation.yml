@@ -5,9 +5,9 @@ main:
     url: /categories/workout/
   - title: "투자"
     url: /categories/investment/
+  - title: "리포트"
+    url: /reports/
   - title: "태그"
     url: /tags/
-  - title: "아카이브"
-    url: /archive/
   - title: "소개"
     url: /about/
