@@ -1,6 +1,7 @@
 title: 운동과 투자일지
 description: 운동 기록과 투자 생각을 담는 개인 블로그
-remote_theme: sighingnow/jekyll-gitbook
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: default
 timezone: Asia/Seoul
 lang: ko
 author: Kyoungtae
@@ -13,6 +14,7 @@ toc:
   h_max: 3
 plugins:
   - jekyll-remote-theme
+  - jekyll-include-cache
 collections:
   pages:
     output: true
