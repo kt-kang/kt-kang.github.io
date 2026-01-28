@@ -22,3 +22,10 @@ collections:
 ordered_collections:
   - pages
   - posts
+exclude:
+  - _site
+  - .bundle
+  - .jekyll-cache
+  - vendor
+  - node_modules
+  - private

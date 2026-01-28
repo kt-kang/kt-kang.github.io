@@ -28,9 +28,10 @@ mkdir -p "$post_dir"
 
 cat > "$post_path" <<EOF
 ---
-layout: post
+layout: single
 title: "$title"
 categories: [$category]
+classes: wide
 ---
 
 ## 오늘의 기록
