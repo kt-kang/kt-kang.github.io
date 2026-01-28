@@ -1,0 +1,9 @@
+main:
+  - title: "홈"
+    url: /
+  - title: "운동"
+    url: /운동/
+  - title: "투자"
+    url: /투자/
+  - title: "소개"
+    url: /about/

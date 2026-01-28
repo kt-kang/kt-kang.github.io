@@ -22,6 +22,21 @@ collections:
 ordered_collections:
   - pages
   - posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: single
+      sidebar:
+        nav: "main"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: single
+      sidebar:
+        nav: "main"
 exclude:
   - _site
   - .bundle
