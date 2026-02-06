@@ -12,7 +12,14 @@ permalink: /categories/investment/
 <ul class="summary">
   {% for post in posts %}
   <li class="chapter">
-    <a href="{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }} · {{ post.title }}</a>
+    <a href="{{ post.url }}">{{ post.date | date: "%y%m%d" }} · {{ post.title }}</a>
+    {% if post.tags %}
+    <small>
+      {% for tag in post.tags %}
+      <a href="/tags/#{{ tag | slugify }}">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    </small>
+    {% endif %}
   </li>
   {% endfor %}
 </ul>

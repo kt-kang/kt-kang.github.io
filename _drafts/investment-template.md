@@ -3,6 +3,7 @@ layout: single
 title: "YYYY-MM-DD 투자 기록"
 categories: [investment]
 classes: wide
+tags: []
 ---
 
 ## 투자 목표

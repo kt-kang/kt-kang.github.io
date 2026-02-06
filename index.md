@@ -18,7 +18,7 @@ title: 홈
 <ul class="summary">
   {% for post in workout_posts %}
   <li class="chapter">
-    <a href="{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }} · {{ post.title }}</a>
+    <a href="{{ post.url }}">{{ post.date | date: "%y%m%d" }} · {{ post.title }}</a>
   </li>
   {% endfor %}
 </ul>
@@ -32,7 +32,7 @@ title: 홈
 <ul class="summary">
   {% for post in investment_posts %}
   <li class="chapter">
-    <a href="{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }} · {{ post.title }}</a>
+    <a href="{{ post.url }}">{{ post.date | date: "%y%m%d" }} · {{ post.title }}</a>
   </li>
   {% endfor %}
 </ul>

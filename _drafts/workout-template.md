@@ -3,6 +3,7 @@ layout: single
 title: "YYYY-MM-DD 운동 로그"
 categories: [workout]
 classes: wide
+tags: []
 ---
 
 ## 운동 목적
