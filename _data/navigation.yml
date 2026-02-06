@@ -7,6 +7,8 @@ main:
     url: /categories/investment/
   - title: "Tech"
     url: /categories/tech/
+  - title: "독서"
+    url: /categories/reading/
   - title: "리포트"
     url: /reports/
   - title: "태그"
