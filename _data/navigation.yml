@@ -5,6 +5,8 @@ main:
     url: /categories/workout/
   - title: "투자"
     url: /categories/investment/
+  - title: "Tech"
+    url: /categories/tech/
   - title: "리포트"
     url: /reports/
   - title: "태그"
