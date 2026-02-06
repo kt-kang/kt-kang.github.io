@@ -45,13 +45,43 @@ layout: single
 title: "$title"
 categories: [$category]
 classes: wide
+tags: []
 ---
 
+EOF
+
+if [ "$category" = "investment" ]; then
+cat >> "$post_path" <<'EOF'
+## 오늘의 시장
+- KOSPI: 
+- NASDAQ: 
+- S&P 500: 
+- DOW: 
+- 환율(USD/KRW): 
+
+## 투자 목표
+- 
+
+## 포트폴리오 구성
+- 
+
+## 변경 사항
+- 
+
+## 판단 근거
+- 
+
+## 결과 및 복기
+- 
+EOF
+else
+cat >> "$post_path" <<'EOF'
 ## 오늘의 기록
 - 
 
 ## 느낀 점
 - 
 EOF
+fi
 
 echo "생성 완료: $post_path"

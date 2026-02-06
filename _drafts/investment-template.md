@@ -6,6 +6,13 @@ classes: wide
 tags: []
 ---
 
+## 오늘의 시장
+- KOSPI: 
+- NASDAQ: 
+- S&P 500: 
+- DOW: 
+- 환율(USD/KRW): 
+
 ## 투자 목표
 - 
 
