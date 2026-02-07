@@ -85,6 +85,44 @@ html {
   margin: 0;
 }
 
+/* 밝은 회색 배경 + 어두운 색상 컬러맵 */
+.page__content .highlight,
+.page__content .highlight pre,
+.page__content .highlight code {
+  color: #111827;
+}
+
+.page__content .highlight .c,
+.page__content .highlight .cm,
+.page__content .highlight .c1 {
+  color: #6b7280;
+}
+
+.page__content .highlight .k,
+.page__content .highlight .kd,
+.page__content .highlight .kt,
+.page__content .highlight .kn {
+  color: #1d4ed8;
+}
+
+.page__content .highlight .s,
+.page__content .highlight .s1,
+.page__content .highlight .s2 {
+  color: #0f766e;
+}
+
+.page__content .highlight .n,
+.page__content .highlight .nf,
+.page__content .highlight .nt {
+  color: #111827;
+}
+
+.page__content .highlight .m,
+.page__content .highlight .mi,
+.page__content .highlight .mf {
+  color: #7c2d12;
+}
+
 .page__meta {
   font-size: 0.8rem;
   opacity: 0.7;
