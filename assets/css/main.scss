@@ -52,12 +52,33 @@ html {
 }
 
 .page__content pre {
-  background: #f5f5f5;
-  color: #222;
+  background: #f7f7f9;
+  color: #1f2937;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  padding: 0.9em 1em;
+  line-height: 1.6;
+  font-size: 0.88rem;
+  overflow: auto;
 }
 
 .page__content pre code {
   color: inherit;
+}
+
+.page__content .highlight,
+.page__content .highlighter-rouge .highlight {
+  background: #f7f7f9;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  padding: 0.6em 0.8em;
+}
+
+.page__content .highlight pre {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .page__meta {
