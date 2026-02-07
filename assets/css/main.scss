@@ -53,7 +53,7 @@ html {
 
 .page__content pre {
   background: #f7f7f9;
-  color: #1f2937;
+  color: #111827;
   border: 1px solid #e5e7eb;
   border-radius: 6px;
   padding: 0.9em 1em;
@@ -64,6 +64,10 @@ html {
 
 .page__content pre code {
   color: inherit;
+}
+
+.page__content .highlight code {
+  color: #111827;
 }
 
 .page__content .highlight,
