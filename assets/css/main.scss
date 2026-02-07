@@ -51,6 +51,15 @@ html {
   background: #f5f5f5;
 }
 
+.page__content pre {
+  background: #f5f5f5;
+  color: #222;
+}
+
+.page__content pre code {
+  color: inherit;
+}
+
 .page__meta {
   font-size: 0.8rem;
   opacity: 0.7;
